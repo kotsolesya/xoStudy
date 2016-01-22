@@ -12,11 +12,13 @@ import org.junit.Test;
 
 public class testPlayer {
 
-
-
 	@Test
-	public void test() {
-		fail("Not yet implemented");
+	public void testGetName()  throws Exception {
+	
 	}
-
+	
+	@Test
+	public void testGetFigure()  throws Exception {
+	
+	}
 }
