@@ -1,4 +1,4 @@
-package myJava.xo;
+package sourse;
 
 public class Game {
 
@@ -25,5 +25,5 @@ public Field getField() {
 public String getName() {
 	return name;
 }
-
+	
 }

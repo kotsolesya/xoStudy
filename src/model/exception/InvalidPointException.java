@@ -1,5 +1,5 @@
 package exception;
 
-public class InvalidPointException  extends AbstractXOException{
+public class InvalidPointException extends AbstractXOException{
 
 }

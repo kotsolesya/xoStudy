@@ -1,5 +1,5 @@
 package exception;
 
-public class AbstractXOException extends Exception{
+public class AbstractXOException extends Exception {
 
 }

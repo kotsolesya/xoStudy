@@ -1,17 +1,14 @@
-/**
- * 
- */
-package tst;
+package tstModel;
 
 import static org.junit.Assert.*;
+
 
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import myJava.xo.Figure;
-import myJava.xo.Player;
-
+import sourse.Figure;
+import sourse.Player;
 
 public class testPlayer {
 
@@ -41,4 +38,5 @@ public class testPlayer {
 		
 		
 	}
+
 }

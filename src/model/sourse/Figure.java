@@ -1,4 +1,4 @@
-package myJava.xo;
+package sourse;
 
 public enum Figure {
 

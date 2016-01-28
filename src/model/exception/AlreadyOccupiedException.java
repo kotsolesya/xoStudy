@@ -1,5 +1,5 @@
 package exception;
 
-public class AlreadyOccupiedException extends AbstractXOException {
+public class AlreadyOccupiedException extends AbstractXOException{
 
 }

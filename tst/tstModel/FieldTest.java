@@ -1,7 +1,6 @@
-package tst;
+package tstModel;
 
 import static org.junit.Assert.*;
-
 
 import java.awt.Point;
 
@@ -11,10 +10,12 @@ import org.junit.Test;
 
 import exception.AlreadyOccupiedException;
 import exception.InvalidPointException;
-import myJava.xo.Field;
-import myJava.xo.Figure;
+import sourse.Field;
+import sourse.Figure;
 
 public class FieldTest {
+
+
 	@Test
 	public void testGetSize() throws Exception {
 		final Field field = new Field();
@@ -32,6 +33,7 @@ public class FieldTest {
 		final Figure actualFigure = field.getFigure(inputPoint);
 		
 		assertEquals(inputFigure, actualFigure);
+		
 	}
 	
 	@Test
@@ -103,5 +105,5 @@ public class FieldTest {
 			} catch (final AlreadyOccupiedException e) {}
 	}
 	
-	
+
 }

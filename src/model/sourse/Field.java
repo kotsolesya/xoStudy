@@ -1,7 +1,6 @@
-package myJava.xo;
+package sourse;
 
 import java.awt.Point;
-
 
 import exception.AlreadyOccupiedException;
 import exception.InvalidPointException;

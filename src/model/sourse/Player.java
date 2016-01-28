@@ -1,7 +1,7 @@
-package myJava.xo;
+package sourse;
 
 public class Player {
-		
+
 	private final String name;
 	private final Figure figure;
 	
@@ -20,7 +20,5 @@ public class Player {
 	public Figure getFigure() {
 		return figure;
 	}
-
-
-
+	
 }
