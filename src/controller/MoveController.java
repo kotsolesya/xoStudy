@@ -2,6 +2,7 @@ package controller;
 
 import java.awt.Point;
 
+
 import exception.AlreadyOccupiedException;
 import exception.InvalidPointException;
 import sourse.Field;
@@ -18,4 +19,20 @@ if (field.getFigure(point) != null) {
 	field.setFigure(point, figure);
 	}
 	
+	
+	private boolean check(final Field field, final Point currentPoint, final IPointGenerator pointGenerator){
+		final Figure currentFigure;
+		final Figure nextFigure;
+		
+		
+		try {
+			if(field.getFigure)
+		} catch (InvalidPointException e) {
+			e.printStackTrace();
+		}
+	}
+	
+	private interface IPointGenerator {
+		public Point next(final Point point);
+	}
 }
