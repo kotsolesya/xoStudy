@@ -1,9 +1,8 @@
-package sourse;
+package model;
 
 import java.awt.Point;
 
-import exception.AlreadyOccupiedException;
-import exception.InvalidPointException;
+import model.exception.InvalidPointException;
 
 public class Field {
 	

@@ -2,16 +2,20 @@ package tstModel;
 
 import static org.junit.Assert.*;
 
+
+
+
 import java.awt.Point;
 
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import exception.AlreadyOccupiedException;
-import exception.InvalidPointException;
-import sourse.Field;
-import sourse.Figure;
+import model.exception.AlreadyOccupiedException;
+import model.exception.InvalidPointException;
+import model.Field;
+import model.Figure;
+
 
 public class FieldTest {
 

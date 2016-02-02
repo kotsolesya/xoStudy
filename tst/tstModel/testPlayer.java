@@ -3,12 +3,14 @@ package tstModel;
 import static org.junit.Assert.*;
 
 
+
+
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import sourse.Figure;
-import sourse.Player;
+import model.Figure;
+import model.Player;
 
 public class testPlayer {
 

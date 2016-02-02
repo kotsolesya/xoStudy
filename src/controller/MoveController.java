@@ -3,10 +3,11 @@ package controller;
 import java.awt.Point;
 
 
-import exception.AlreadyOccupiedException;
-import exception.InvalidPointException;
-import sourse.Field;
-import sourse.Figure;
+
+import model.exception.AlreadyOccupiedException;
+import model.exception.InvalidPointException;
+import model.Field;
+import model.Figure;
 
 public class MoveController {
 	public void applyFigure(final Field field,
@@ -20,17 +21,17 @@ if (field.getFigure(point) != null) {
 	}
 	
 	
-	private boolean check(final Field field, final Point currentPoint, final IPointGenerator pointGenerator){
+	/*private boolean check(final Field field, final Point currentPoint, final IPointGenerator pointGenerator){
 		final Figure currentFigure;
 		final Figure nextFigure;
 		
 		
 		try {
-			if(field.getFigure)
+		//	if(field.getFigure(point))
 		} catch (InvalidPointException e) {
 			e.printStackTrace();
 		}
-	}
+	}*/
 	
 	private interface IPointGenerator {
 		public Point next(final Point point);

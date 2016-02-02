@@ -1,4 +1,4 @@
-package sourse;
+package model;
 
 public enum Figure {
 
