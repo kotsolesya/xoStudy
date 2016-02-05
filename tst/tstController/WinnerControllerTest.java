@@ -20,9 +20,20 @@ public class WinnerControllerTest {
 		field.setFigure(new Point(0,0), Figure.X );
 		field.setFigure(new Point(0,1), Figure.X );
 		field.setFigure(new Point(0,2), Figure.X );
-		
+				
+	}
+
+	
+	@Test
+	public void testGetWinnerIs() throws Exception {
+		final WinnerController winnerContriller = new WinnerController();
+		final Field field = new Field(3);
+		field.setFigure(new Point(0,0), Figure.X );
+		field.setFigure(new Point(0,1), Figure.O );
+		field.setFigure(new Point(0,2), Figure.X );
 		
 		
 	}
 
+	
 }

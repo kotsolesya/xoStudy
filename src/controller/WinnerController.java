@@ -14,17 +14,17 @@ public class WinnerController {
 	        final int fieldSize = field.getSize();
 	        try {
 	           for (int i = 0; i < fieldSize; i++)
-	                if (check(field, new Point(i, 0), p -> new Point(p.getX(), p.getY() + 1)))
+	                if (check(field, new Point(i, 0), p -> new Point(p.x, p.y + 1)))
 	                    return field.getFigure(new Point(i, 0));
 
 	            for (int i = 0; i < fieldSize; i++)
-	                if (check(field, new Point(0, i), p -> new Point(p.getX() + 1, p.getY())))
+	                if (check(field, new Point(0, i), p -> new Point(p.x + 1, p.y)))
 	                    return field.getFigure(new Point(0, i));
 
-	            if (check(field, new Point(0, 0), p -> new Point(p.getX() + 1, p.getY() + 1)))
+	            if (check(field, new Point(0, 0), p -> new Point(p.x + 1, p.y + 1)))
 	                return field.getFigure(new Point(0, 0));
 
-	            if (check(field, new Point(0, fieldSize - 1), p -> new Point(p.getX() + 1, p.getY() - 1)))
+	            if (check(field, new Point(0, fieldSize - 1), p -> new Point(p.x + 1, p.y - 1)))
 	                return field.getFigure(new Point(0, fieldSize - 1));
 
 	        } catch (final InvalidPointException e) {
